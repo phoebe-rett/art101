@@ -1,19 +1,20 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
 #content {
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #cbc5d4;
+  background-color: #faf5ed;
 }
 
 .Phoebe_Rettberg {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 2px #ee6bad;
-  background-color: #a8e8a4;
+  border: solid 1px #000000;
+  background-color: #539166;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color:#ee6bad;
+  color:#000000;
 }
 
 .Harry_Chou {
@@ -28,12 +29,15 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   font-family: cursive;
+  letter-spacing: 0.5px;
+  font-size: xxx-large;
 }
 
 h2{
-
+font-family: 
 }
 
 body{
-  background-color: beige;
+  background-color: #f08686;
 }
+
