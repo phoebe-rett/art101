@@ -6,13 +6,24 @@
   max-width: 1300px;
   
 }
+
+
 .minor-section{
   background-color:#e298c8;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+}
+
+h1:hover{
+  color: #f312a4
+}
+
+h1:active{
+  color: lightblue
 }
 
 h2{
@@ -21,9 +32,19 @@ h2{
 
 #content{
   background-color: #e298c8;
+  outline-style: dotted;
 }
 
-.digression{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: small
+body{
+  background-color: lightblue;
+}
+
+#photo-of-me{
+  max-width: 200px;
+}
+
+.labs{
+  border: solid 2px black;
+  padding: 5px;
+  margin-bottom: 10px;
 }
