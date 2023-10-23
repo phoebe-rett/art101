@@ -1,16 +1,11 @@
 /* this css file will only style the homepage of our site */
-
-#ocean-photo {
-  margin: 10px;
-  padding: 10px;
-  max-width: 1300px;
-  
+body{
+  background-color: lightblue;
 }
 
-
-.minor-section{
-  background-color:#e298c8;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+#content{
+  background-color: #e298c8;
+  outline-style: dotted;
 }
 
 h1{
@@ -19,32 +14,47 @@ h1{
 }
 
 h1:hover{
-  color: #f312a4
+  color: #f312a4;
 }
 
 h1:active{
-  color: lightblue
-}
-
-h2{
+  color: lightblue;
   font-family: cursive;
-}
-
-#content{
-  background-color: #e298c8;
-  outline-style: dotted;
-}
-
-body{
-  background-color: lightblue;
-}
-
-#photo-of-me{
-  max-width: 200px;
 }
 
 .labs{
   border: solid 2px black;
   padding: 5px;
   margin-bottom: 10px;
+}
+
+.lab-link:hover{
+  color: #f312a4
+}
+
+h2{
+  font-family: cursive;
+}
+
+.minor-section{
+  background-color:#e298c8;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+#photo-of-me{
+  width: 30%;
+}
+
+#ocean-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
