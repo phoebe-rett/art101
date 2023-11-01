@@ -6,7 +6,7 @@
 
 //basis for code from Wes Modes
 function sortUserName(){
-    var userName = window.prompt ("Tell me your name so I can fix it");
+    var userName = window.prompt ("Tell me your full name so I can fix it");
     console.log("userName =", userName);
     //split string to array
     //removing spaces from: https://stackoverflow.com/questions/5963182/how-to-remove-spaces-from-a-string-using-javascript
