@@ -1,0 +1,27 @@
+.minor-section {
+padding: 10px;
+margin-bottom: 10px;
+color: #000000; 
+background-color: #e298c8;
+font-family: 'Times New Roman', Times, serif;
+outline-style: dotted;
+outline-color: #000000;
+}
+    
+    
+body{
+background-color: #e298c8;
+} 
+h1{
+color:#000000;
+font-family: 'Times New Roman', Times, serif;
+}
+    
+h2{
+color: #000000;
+font-family: 'Times New Roman', Times, serif;
+}
+    
+#content{
+background-color: #e298c8;
+}
