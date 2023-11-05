@@ -4,6 +4,7 @@
  * License: Public Domain
  */
 
+
 function halveValue(x){ 
     return (x/2);
 }
@@ -25,3 +26,5 @@ var squared = results.map(function(x){
 });
 console.log(squared);
 console.log("that's not right either, math sucks!");
+
+

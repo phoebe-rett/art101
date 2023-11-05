@@ -16,12 +16,44 @@
     
                 <div class="minor-section">
                     <h2>Problems</h2>
-                    <p>... </p>
+                    <p>Other than the usual syntax stuff I didn't run into many issues with this lab, debugging definitely helped to make sure that everything was working correctly and identify problem areas.</p>
                 </div>
                 
                 <div class="minor-section">
                     <h2>Results</h2>
-                    <p>...</p>
+                    <p>Check the console or look below!</p>
+                    
+                    <!--Got code for output from ChatGPT-->
+                    <div id="outputEl"></div>
+
+                    <script>
+                        function halveValue(x) {
+                            return x / 2;
+                        }
+                
+                        var outputEl = document.getElementById("outputEl");
+                
+                        function writeToHTML(message) {
+                            outputEl.innerHTML += message + "<br>";
+                        }
+                
+                        writeToHTML("Thanks for visitng my site, let's do some math:");
+                        writeToHTML("What is half of 4? " + halveValue(4));
+                        writeToHTML("What about 20? " + halveValue(20));
+                
+                        var array = [2, 6, 13, 24, 67, 98, 107, 222];
+                        writeToHTML("Here's my array: " + array.join(", "));
+                
+                        var results = array.map(halveValue);
+                        writeToHTML("Oh no! My array has been split in half! " + results.join(", "));
+                        writeToHTML("Bummer... I'll try to double it again :)");
+                
+                        var squared = results.map(function (x) {
+                            return x * x;
+                        });
+                        writeToHTML(squaredjoin(", "));
+                        writeToHTML("That's not right either, math sucks!");
+                    </script>
                 </div>
             </section>
         </main>
