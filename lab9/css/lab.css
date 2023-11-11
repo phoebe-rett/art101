@@ -1,0 +1,54 @@
+.minor-section {
+   padding: 10px;
+   margin-bottom: 10px;
+   background-color: #000000;
+   font-family: 'Times New Roman', Times, serif;
+   color: #5e5e5e;
+}
+       
+       
+body{
+   background-color: black;
+} 
+   
+h1{
+   font-family: 'Times New Roman', Times, serif;
+   color:#5e5e5e;
+}
+       
+h2{
+   font-family: 'Times New Roman', Times, serif;
+}
+       
+#content{
+   background-color: black;
+}
+
+#button-one{
+   background-color: #5e5e5e;
+}
+
+#button-two{
+   background-color: #5e5e5e;
+}
+
+#button-three{
+   background-color: #5e5e5e;
+}
+
+.clicked {
+   color: black;
+   background-color: #e298c8;
+}
+
+.title-click{
+   color: #e298c8;
+   font-family: 'Times New Roman', Times, serif;
+   letter-spacing: 5px;
+   word-spacing: 5px;
+   font-size: 200%; 
+}
+
+.emphasize-button{
+  color: #e298c8;
+}
