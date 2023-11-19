@@ -36,7 +36,7 @@ function sortStringBonus(inputString) {
     //join and return
     const sortStringBonus = nameArray.join('');
     return sortStringBonus;
-}
+};
  
 //title case
 String.prototype.toTitleCase = function() {
@@ -53,4 +53,4 @@ $("#submit-two").click(function(){
     userNameSortedBonus = sortStringBonus(userNameBonus).toTitleCase();
     // return new name
     $("#output-two p").append('<div class="text"><p>' + userNameSortedBonus + '</p></div>');
-})
+});
