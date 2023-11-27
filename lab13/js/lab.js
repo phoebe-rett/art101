@@ -11,19 +11,19 @@ function FizzBuzz(){
         let output = "";
         //conditional: If divisable by 3 say Fizz
         if (index % 3 == 0){
-            output+= " Fizz";
+            output = " Fizz";
         } 
         //conditional: If divisable by 5 say Buzz
-        if (index % 5 == 0){
-            output+= " Buzz";
+        else if (index % 5 == 0){
+            output += " Buzz";
         }
         //conditional: If divisable by 7 say Boom
-        if (index % 7 == 0){
-            output+=" Boom"
+        else if (index % 7 == 0){
+            output += " Boom"
         }
         //conditional: anything else, output the number
         else{
-            output= index
+            output = index
         }
         //output in div, with commas
         $("#output p").append("" + output + ", ");
