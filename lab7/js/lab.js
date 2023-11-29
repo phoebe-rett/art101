@@ -22,7 +22,7 @@ function sortUserName(){
     //join array back to a string
     var nameSorted = nameArraySort.join('~');
     console.log("nameSorted =", nameSorted);
-    
+
     return nameSorted;
 }
 

@@ -21,7 +21,8 @@ $("#submit").click(function(){
     //apply sorting
     userNameSorted = sortString(userName);
     //return sorted name
-    $("#output p").append('<div class="text"><p>' + userNameSorted + '</p></div>');
+    $("#output p").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+    $("#user-name").val('');
 });
 
 //New name, randomized with spaces, title case
@@ -52,5 +53,7 @@ $("#submit-two").click(function(){
     // apply sort and title case
     userNameSortedBonus = sortStringBonus(userNameBonus).toTitleCase();
     // return new name
-    $("#output-two p").append('<div class="text"><p>' + userNameSortedBonus + '</p></div>');
+    //Debugging: ChatGPT suggested using html instead of append
+    $("#output-two p").html('<div class="text"><p>' + userNameSortedBonus + '</p></div>');
+    $("#user-name-two").val('');
 });
