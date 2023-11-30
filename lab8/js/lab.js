@@ -9,7 +9,7 @@ function halveValue(x){
     return (x/2);
 }
 
-console.log("Thanks for opening the console, lets do some math:")
+console.log("Thanks for opening the console, lets do some math:");
 
 console.log("What is half of 4?", halveValue(4));
 console.log("What about 20?", halveValue(20));
